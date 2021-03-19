@@ -19,7 +19,7 @@
 # Note that fluentd is run with root permssion to allow access to
 # log files with root only access under /var/log/containers/*
 
-FROM ubuntu:trusty-20190515
+FROM ubuntu:cosmic
 
 RUN apt-get update \
     && apt-get install -y software-properties-common \
