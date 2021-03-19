@@ -1,0 +1,34 @@
+source 'https://rubygems.org'
+gem 'cool.io'
+gem 'oj'
+gem 'json'
+
+gem 'fluentd'
+
+# Input / Output plugins:
+gem 'fluent-plugin-elasticsearch'
+gem 'fluent-plugin-splunk-enterprise'
+gem 'fluent-plugin-kafka'
+gem 'fluent-plugin-kinesis'
+gem 'fluent-plugin-s3'
+gem 'fluent-plugin-systemd'
+
+gem 'fluent-plugin-secure-forward'
+gem 'fluent-plugin-kubernetes_metadata_filter'
+gem 'fluent-plugin-remote_syslog'
+gem 'fluent-plugin-record-reformer'
+gem 'fluent-plugin-prometheus'
+gem 'fluent-plugin-detect-exceptions'
+
+# filter plugins
+gem 'fluent-plugin-rewrite-tag-filter'
+gem 'fluent-plugin-record-modifier'
+gem 'fluent-plugin-concat'
+gem 'fluent-plugin-fields-parser'
+
+# parser plugins
+gem 'fluent-plugin-grok-parser'
+gem 'fluent-plugin-multi-format-parser'
+
+# formatter plugins
+gem 'fluent-plugin-formatter_sprintf'
